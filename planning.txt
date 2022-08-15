@@ -1,0 +1,63 @@
+===================================== L2T07 Capstone Project: Planning Description =================================
+
+This project forms the first part of the IFS Level 2 Capstone Projects, and will be built upon in later Capstone
+projects. This program:
+    - receives user inputted information about a restaurant and customer,
+    - creates classes and instances for each,
+    - gets and reads a list of drivers from the 'drivers.txt' file,
+    - compares the inputted restaurant location with the driver location and:
+        - if the driver location matches the restaurant location, creates and outputs the text file 'invoice.txt'
+          containing the order information (i.e. the restaurant, customer and driver information).
+        - if the locations do not match, the program outputs the text file 'invoice.txt' with a message that the
+          delivery cannot be made.
+
+Please see L2T07_UML_Diagram.pdf for this project's UML diagram.
+Please see 'L2T07_References.txt' for the list of references I used in this task.
+
+======================================== PROJECT PLANNING STEPS ====================================================
+
+-------------------------------------------- Step 1 ----------------------------------------------------------------
+Create Customer class with:
+    (a) a constructor method which adds attributes to the 'Customer' instance.
+    (b) a method that returns the required Restaurant information for the top section of the invoice.
+    (c) a method that returns the required Restaurant information for the bottom section of the invoice.
+
+-------------------------------------------- Step 2 ----------------------------------------------------------------
+Create Restaurant class with:
+    (a) a constructor method which adds attributes to the 'Restaurant' instance and calls methods (b) and (c) below.
+    (b) a method with a 'for' loop and 2D array that gets and concatenates all the meal information entered
+        by the user (i.e. meal type, price and number of meals), called in Constructor.
+    (c) a method with a 'for' loop that calculates the total price of all the meals entered by the user, called
+        in Constructor.
+    (d) a method that returns the required Restaurant information for the top section of the invoice.
+    (e) a method that returns the required Restaurant information for the bottom section of the invoice.
+
+-------------------------------------------- Step 3 ----------------------------------------------------------------
+Create Main class with:
+    (a) a 'try..catch' method with File and Scanner classes to get and read the file 'drivers.txt', and add the
+        text content to a string.
+    (b) a scanner object to get user input for restaurant and customer details, with a 'while' loop and nested
+        'if..else if' statement to allow the user to enter additional meals.
+    (c) a method that returns the required Restaurant information for the bottom section of the invoice.
+    (d) Customer and Restaurant instances, created by calling their class constructor methods.
+    (e) details of Customer and Restaurant instances, retrieved by calling 'get..DetailsFor..' methods on instances.
+    (f) an array to store driver details, to be compared with the inputted restaurant location.
+    (g) a 'for' loop, nested 'if..else' statement, and 'try..catch' method to:
+        - check if the driver location matches the restaurant location.
+        - If true, create an invoice text file with the order information, using Formatter class.
+        - Else, create an invoice text file with a message that the delivery can't be made, using Formatter class.
+
+
+==================================== CLASS ASSOCIATION/RELATIONSHIP =================================================
+
+The association between the Main, Customer and Restaurant classes is an Aggregation association, because the Restaurant
+and Customer classes have unidirectional (one-way) association with the Main class. The Restaurant and Customer classes
+are not linked by inheritance because they are not of the same type, so for now they are independent and can survive
+individually. I assume that in later Capstone Projects they will inherit an 'Orders' class, which could hold both
+Restaurant and Customer classes and would the change the relationship type.
+
+For now, it represents a "Has-A" relationship, where the Main class "has a" Restaurant object and "has a"
+Customer object, and the information from these two objects forms the information that is put together in the created
+invoice text file.
+
+=====================================================================================================================

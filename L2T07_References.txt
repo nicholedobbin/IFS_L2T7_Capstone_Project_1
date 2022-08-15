@@ -1,0 +1,30 @@
+=================================== L2T07 Capstone Project: References ===============================================
+
+UML Class Diagrams:
+    *   https://www.youtube.com/watch?v=ksvwF2sUjHM
+    *   https://www.tutorialspoint.com/uml/uml_class_diagram.htm#:~:text=Advertisements,code%20of%20the%20software%20application.
+    *   https://stackoverflow.com/questions/64290015/how-to-declare-uml-class-diagram-scanner-scan-declaration
+
+Getting user input and using loops for repeated input:
+    *   https://www.youtube.com/watch?v=_9BgM9c8mIo
+    *   https://www.youtube.com/watch?v=ZhNdmzUXKV4
+    *   https://www.delftstack.com/howto/java/java-while-loop-user-input/
+    *   https://stackoverflow.com/questions/15843169/loop-user-input-until-conditions-met
+    *   https://www.w3schools.com/java/java_user_input.asp
+
+Arrays and ArrayLists:
+    *   https://www.javatpoint.com/array-vs-arraylist-in-java#:~:text=Array%20is%20a%20fixed%20length,primitives%20and%20objects%20in%20Java.
+    *   https://www.geeksforgeeks.org/array-vs-arraylist-in-java/
+    *   https://www.geeksforgeeks.org/initialize-an-arraylist-in-java/
+    *   https://www.geeksforgeeks.org/java-program-to-convert-string-to-string-array/
+
+Multidimensional Arrays:
+    *   https://www.java67.com/2014/10/how-to-create-and-initialize-two-dimensional-array-java-example.html
+    *   https://www.geeksforgeeks.org/multidimensional-arrays-in-java/
+    *   https://www.educba.com/2d-arraylist-in-java/
+
+Getting, reading and creating files with File, Scanner and Formatter:
+    *   https://stackoverflow.com/questions/63329239/file-and-scanner-objects-for-opening-and-reading-data-in-java
+
+Understanding class relationships:
+    *   https://www.geeksforgeeks.org/association-composition-aggregation-java/

@@ -1,0 +1,21 @@
+Order Number: 1002
+Customer: James T Kirk
+Email: captain@starfleet.com
+Phone number: 021 111 222
+Location: potchefstroom
+ 
+You have ordered the following from Le Jardin in Potchefstroom: 
+
+1 x Carpaccio (R15.95) 
+2 x Moules-frites (R22.5) 
+
+Special Instructions: ring the bell when you arrive
+
+Total: R60.95
+
+Victor Orozco is nearest to the restaurant and so he will be delivering your order to you at: 
+
+15 Enterprise Road
+Harrington
+
+If you need to contact the restaurant, their number is 021 222 333.
